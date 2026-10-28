@@ -1,0 +1,93 @@
+{
+  "id": "cosmic-codex",
+  "title": "Neon Odyssey - Cosmic Codex",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "description": "<p>A Module containing the material from the Neon Odyssey Cosmic Codex.</p>",
+  "authors": [
+    {
+      "name": "Alkahest",
+      "discord": ".alkahest",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/Alkahest/cosmic-codex/refs/heads/main/module.json",
+  "download": "https://github.com/Alkahest/cosmic-codex/raw/refs/heads/main/cosmic-codex.zip",
+  "packs": [
+    {
+      "name": "cosmic-codex",
+      "label": "Cosmic Codex",
+      "path": "packs/cosmic-codex",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "cosmic-equipment",
+      "label": "Equipment",
+      "path": "packs/cosmic-equipment",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "cosmic-actors",
+      "label": "Actors",
+      "path": "packs/cosmic-actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "cosmic-features",
+      "label": "Monster Features",
+      "path": "packs/cosmic-features",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "packFolders": [
+    {
+      "name": "Neon Odyssey",
+      "sorting": "m",
+      "packs": [
+      ],
+      "folders": [
+	    {
+	      "name": "Cosmic Codex",
+	      "sorting": "m",
+		  "color": "#f746d0",
+		  "packs": [
+            "cosmic-codex",
+            "cosmic-equipment",
+            "cosmic-actors",
+		    "cosmic-features"
+		  ]
+		}
+	  ]
+    }
+  ]
+}
